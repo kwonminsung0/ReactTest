@@ -1,0 +1,39 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+}
+.editor {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.editor > input.name,
+.editor > input.title,
+.editor > textarea {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.editor > input:focus,
+.editor > textarea {
+  outline: none;
+}
+
+.btn > button {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(112, 208, 246);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
